@@ -1,0 +1,269 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Patrick Hand', cursive;
+    }
+
+header{
+    width: 100%;
+    background: url(../img/fondo\ 1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+header nav{
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+header nav ul li a{
+    font-size: 22px;
+    color: rgb(255, 255, 250);
+    text-decoration: none;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    padding: 12px 30px;
+}
+header nav ul li a:hover {
+    border: 2px solid white;
+}
+header #hero{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 190px;
+}
+header #hero h1{
+    color: rgb(255, 251, 0);
+    font-size: 90px;
+    margin: 0;
+    padding-top: 100px;
+    font-family: 'Amatic SC', cursive;
+}
+header #hero h2{
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 100px;
+    font-family: 'Patrick Hand', cursive;
+    
+    
+}
+
+header #hero a{
+    background: rgb(225, 251, 0);
+    padding: 12px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 8px;
+    color: grey;
+    transition: .5s;
+    font-family: 'Amatic SC', cursive;
+}
+header #hero a:hover{
+    padding: 12px 60px;
+    border-radius: 0;
+    background: white;
+}
+/*SECCION PLANES*/
+#planes{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: #ffffff;
+   
+
+}
+
+#planes .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+#planes h2{
+    font-size: 150px;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+#planes h3{
+    font-size: 25px;
+    font-family: 'Patrick Hand', cursive;
+
+}
+
+#planes p{ 
+    font-size: 40px;
+    font-family: 'Patrick Hand', cursive;
+  
+
+}
+
+#planes .fila{
+  
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 70px;
+
+} 
+
+#planes .fila .card{
+    
+    position: relative;
+
+}
+#planes .fila .card h3{
+    position: absolute;
+    top: 97px;
+    left: 0;
+    right: 0;
+    font-size: 25px;
+    color: yellow; 
+    
+}
+
+ /*SECCION DESTINOS*/
+
+ #destinos{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    background: url(../img/fondo\ 2.jpg); 
+    background-size: cover;
+
+ }
+
+
+#destinos .container .fila{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ #destinos .container h2{
+    color: rgb(248, 248, 7);
+    font-size: 150px;
+    font-family: 'Amatic SC', cursive;
+    
+
+ }
+ #destinos p{ 
+    font-size: 60px;
+    font-family: 'Patrick Hand', cursive;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    color: rgb(255, 255, 255);
+  
+
+}
+ #destinos .fila{
+    display: flex;
+    justify-content: space-around;
+ }
+ #destinos .container .fila .card h3{
+    color: white;
+    font-size: 30px;
+    font-family: 'Patrick Hand', cursive;
+ }
+
+ /*SECCION CONTACTO*/
+ #contacto{
+    background: rgb(177, 229, 245);
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family:'Patrick Hand', cursive;
+ }
+  #contacto .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+  }
+
+  #contacto h2{
+    font-size: 100px;
+    font-family: 'Amatic SC', cursive;
+
+  }
+   #contacto p{
+    font-size: 40px;
+
+   }
+
+   #contacto input{
+    padding: 8px 15px;
+    font-size: 20px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 4px;
+  
+
+   }
+    
+   #contacto select{
+    padding: 8px 15px;
+    font-size: 20px;
+    width: 332px;
+    margin: 20px;
+    border-radius: 4px;
+
+   }
+
+   #contacto button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background: rgb(216, 216, 7);
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+   }
+    
+   footer{
+    background: #000000;  
+    text-align: center;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+   }
+
+   html{
+       scroll-behavior: smooth;
+   }
+   .tamaño{
+       width: 259px;
+       height: 258px;
+
+       
+   }
+   .card{
+       justify-content: space-between;
+       
+    
+   }
+   .fila{
+    display: flex;
+    justify-content: center ;
+   }
+   
